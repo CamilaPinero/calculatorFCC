@@ -38,7 +38,7 @@ export const Calculator = () => {
 	}
 
 	function handleClearClick() {
-		setDisplay(0);
+		setDisplay("0");
 		setResult(0);
 	}
 
